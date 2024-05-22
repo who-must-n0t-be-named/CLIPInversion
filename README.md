@@ -24,9 +24,9 @@ python invert.py \
     --img_size 64 \  # Size of the image at iteration 0.
     --tv 0.005 \  # Total Variation weight.
     --batch_size 13 \  # How many augmentations to use at each iteration.
-    --bri 0.4 \  # ColorJitter Augmentation brightness degree.
-    --con 0.4 \  # ColorJitter Augmentation contrast degree.
-    --sat 0.4 \  # ColorJitter Augmentation saturation degree.
+    --bri 0.0 \  # ColorJitter Augmentation brightness degree.
+    --con 0.0 \  # ColorJitter Augmentation contrast degree.
+    --sat 0.0 \  # ColorJitter Augmentation saturation degree.
     --save_every 100 \  # Frequency at which to save intermediate results.
     --print_every 100 \  # Frequency at which to print intermediate information.
     --model_name ViT-B/16 # ['RN50', 'RN101', 'RN50x4', 'RN50x16', 'ViT-B/32', 'ViT-B/16']
